@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI - Nossos Serviços</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900">
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="logo.png" class="h-8" alt="SENAI Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Início</a>
+                    </li>
+                    <li>
+                        <a href="#servicos" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] bg-gray-700 bg-blend-multiply">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Inovação e Qualificação para a Indústria</h1>
+            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">O SENAI oferece soluções completas em educação profissional e serviços tecnológicos, impulsionando a competitividade da indústria brasileira.</p>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="#servicos" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    Conheça Nossos Serviços
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+                <a href="#contato" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 hover:text-gray-900">
+                    Fale Conosco
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="bg-white dark:bg-gray-900 py-8 lg:py-16">
+        <div class="mx-auto max-w-screen-xl px-4">
+            <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">Nossos Serviços e Plataformas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><i class="fas fa-envelope-open-text mr-2 text-blue-600"></i>E-mail Institucional</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Acesso ao e-mail oficial do SENAI para colaboradores e alunos.</p>
+                    <a href="https://identidade.senai.br/recuperar-senha?RelayState=a.ALgCv6yOTL5KUksAkx2j_Sw0zjOhx7PokYSuGEJ2hSmyxjMSBaHMXFeKU8stJ2w8&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=4c3f8272-20d7-40fd-90d3-f5b48bbb0c9d&relyingParty=https%3A%2F%2Faccounts.google.com%2Fsamlrp%2Fmetadata%3Frpid%3D033yb3n93mahvk0&type=samlsso&sp=google.com&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL&isUsernameRecovery=false&callback=https%3A%2F%2Fidentidade.senai.br%3A443%2Fauthenticationendpoint%2Flogin.do%3FRelayState%3Da.ALgCv6yOTL5KUksAkx2j_Sw0zjOhx7PokYSuGEJ2hSmyxjMSBaHMXFeKU8stJ2w8%26commonAuthCallerPath%3D%2Fsamlsso%26forceAuth%3Dfalse%26passiveAuth%3Dfalse%26tenantDomain%3Dcarbon.super%26sessionDataKey%3D4c3f8272-20d7-40fd-90d3-f5b48bbb0c9d%26relyingParty%3Dhttps%3A%2F%2Faccounts.google.com%2Fsamlrp%2Fmetadata%3Frpid%3D033yb3n93mahvk0%26type%3Dsamlsso%26sp%3Dgoogle.com%26isSaaSApp%3Dfalse%26authenticators%3DBasicAuthenticator%3ALOCAL" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Acessar E-mail
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><i class="fas fa-book-open mr-2 text-blue-600"></i>Estante de Livros SENAI</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Acesso a publicações e materiais didáticos exclusivos do SENAI.</p>
+                    <a href="https://estantedelivros.senai.br/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Explorar Livros
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><i class="fas fa-play-circle mr-2 text-blue-600"></i>SENAI Play</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Conteúdo audiovisual educativo e informativo do SENAI.</p>
+                    <a href="https://play.senai.br/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Ver Vídeos
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><i class="fas fa-cube mr-2 text-blue-600"></i>Tinkercad</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ferramenta online gratuita para design 3D, eletrônica e codificação.</p>
+                    <a href="https://www.tinkercad.com/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Acessar Tinkercad
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><i class="fas fa-star mr-2 text-blue-600"></i>SENAI Experience</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Plataforma para experiências de aprendizado e eventos do SENAI.</p>
+                    <a href="https://experience.senai.br/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Explorar Experiências
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><i class="fas fa-sign-language mr-2 text-blue-600"></i>SENAI Libras</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Recursos para ensino e aprendizado de Libras no contexto industrial.</p>
+                    <a href="https://senai-libras.senai.br/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Acessar Libras
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><i class="fas fa-user-circle mr-2 text-blue-600"></i>Meu SENAI</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Portal do aluno para acesso a notas, frequência e materiais didáticos.</p>
+                    <a href="https://meusenai.br/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Acessar Meu SENAI
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><i class="fas fa-project-diagram mr-2 text-blue-600"></i>GP Inovação SENAI</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Plataforma de Gestão de Projetos e Inovação do SENAI.</p>
+                    <a href="https://plataforma.gpinovacao.senai.br/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Acessar Plataforma
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="bg-gray-50 dark:bg-gray-800 py-8 lg:py-16">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Entre em Contato</h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Tem alguma dúvida sobre nossos serviços? Quer saber como o SENAI pode ajudar sua empresa? Preencha o formulário abaixo.</p>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Seu email</label>
+                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="nome@exemplo.com" required>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Assunto</label>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Deixe-nos saber como podemos ajudar" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sua mensagem</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Deixe seu comentário..."></textarea>
+                </div>
+                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="logo.png" class="h-8" alt="SENAI Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#servicos" class="hover:underline me-4 md:me-6">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="hover:underline">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline"></a>. Todos os Direitos Reservados.</span>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
